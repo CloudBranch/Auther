@@ -1,11 +1,15 @@
 <?php
-	require_once 'config.php';
+
+	require_once 'session.php';
 	require_once 'nav.php';
 	
 	if(isset($_SESSION['user_id'])) {
+		
 		header('location:http://localhost/blueprint/Blueprint/PHP/account.php');
 		exit();
+		
 	}
+	
 ?>
 
 <p>Log In</p>
