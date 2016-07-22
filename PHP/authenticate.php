@@ -8,24 +8,32 @@
 
 	if(!empty($email) && !empty($password)) {
 
-		$query = "SELECT id, email FROM accounts WHERE email = '$email' AND password = '$password'";
-		$data = $dbc->query($query);
+		$sql = "SELECT id, email, password FROM accounts WHERE email = '$email'";
+		$data = $dbc->query($sql);
+		
+		$row = $data->fetch_assoc();
+		$saved_password = $row['password'];
 
-		if(mysqli_num_rows($data) == 1) {
-			$row = mysqli_fetch_array($data);
-			$_SESSION['id'] = $row['id'];
+		if(mysqli_num_rows($data) == 1 && password_verify($password, $saved_password) == true) {
+			
+			$_SESSION['user_id'] = $row['id'];
 			$user_id_rd = $row['id'];
 			$_SESSION['email'] = $row['email'];
 			$user_email_rd = $row['email'];
-			setcookie('user_id', $row['user_id'], $time, '/', 'localhost', $secure, $httponly);
-			header('location:http://localhost/blueprint/Blueprint/PHP/account.php?id=' . $user_id_rd . '&email=' . $user_email_rd);
+			setcookie('user_id', $row['id'], $time, '/', 'localhost', $secure, $httponly);
+			header('location:http://localhost/blueprint/Blueprint/PHP/account.php?user_id=' . $user_id_rd . '&email=' . $user_email_rd);
+			
 		}
 		else {
-			echo 'Sorry, you must enter a valid email and password to log in.';
+			
+			echo 'You must enter a valid email and password combination.';
+			
 		}
 	}
 	else {
-		echo 'Sorry, you must enter your email and password to log in.';
+		
+		echo 'You must enter your email and password to authenticate.';
+		
 	}
-?>					
-
+	
+?>
