@@ -1,7 +1,7 @@
 <?php
 	
-	require_once 'session.php';
-	require_once 'nav.php';
+	require 'session.php';
+	include 'nav.php';
 	
 	if(isset($_SESSION['user_id'])) {
 		

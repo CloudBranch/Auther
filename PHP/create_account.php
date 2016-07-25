@@ -1,9 +1,19 @@
 <?php
 
-	require_once 'session.php';
-	require_once 'db.php';
+	require 'session.php';
+	require 'db.php';
 
 	if(isset($_POST['create'])) {
+		
+		// Prepared statements
+		$stmt = $dbc->prepare('SELECT email FROM accounts WHERE email = ?');
+		$stmt->bind_param('s', $email);
+			
+		$stmt2 = $dbc->prepare('INSERT INTO accounts (email, password, created_at) VALUES (?, ?, NOW())');
+		$stmt2->bind_param('ss', $email, $password);
+			
+		$stmt3 = $dbc->prepare('SELECT id, email FROM accounts WHERE email = ?');
+		$stmt3->bind_param('s', $email);
 			
 		$options = [
 			'cost' => 10,

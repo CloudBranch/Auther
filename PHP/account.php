@@ -1,12 +1,13 @@
 <?php
 
-	require_once 'session.php';
+	require 'session.php';
 
 	if(isset($_SESSION['user_id'])) {
 		
 		require_once 'nav.php';
 		
 		echo "Welcome, " . $_SESSION["email"];
+		
 	}
 	else {
 		

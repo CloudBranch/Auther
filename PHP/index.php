@@ -1,15 +1,20 @@
 <?php
-	require_once 'session.php';
+
+	require 'session.php';
 	
 	if(isset($_SESSION['user_id'])) {
+		
 		header('location:http://localhost/blueprint/Blueprint/PHP/account.php');
 		exit();
+		
 	}
 	
 	$logout = isset($_GET['logout']) ? $_GET['logout'] : '';
 	
 	if($logout == "true") {
-		echo '<h3 style="color:#309C4D;">Successfully logged out!</h3>';
+		
+		echo '<h5 style="color:#309C4D;">Successfully logged out!</h5>';
+		
 	}
 
 ?>

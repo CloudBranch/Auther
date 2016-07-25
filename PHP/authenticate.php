@@ -1,7 +1,7 @@
 <?php
 
-	require_once 'session.php';
-	require_once 'db.php';
+	require 'session.php';
+	require 'db.php';
 
 	$email = $dbc->real_escape_string(trim($_POST['email']));
 	$password = $dbc->real_escape_string(trim($_POST['password']));

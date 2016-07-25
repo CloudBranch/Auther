@@ -20,7 +20,7 @@
 	/* session.entropy_length specifies the number of bytes which will be read from the file specified above. Defaults to 32. Removed in PHP 7.1.0. */
 	
 	$cookieParams = session_get_cookie_params(); // Get current session cookie information
-	session_set_cookie_params($time, $cookieParams["path"], $cookieParams["domain"], $secure, $httponly); // Set the session cookie parameters
+	session_set_cookie_params($time, $cookieParams['path'], $cookieParams['domain'], $secure, $httponly); // Set the session cookie parameters
 	session_name($session_name); // Set the session name
 	session_start(); // Start the session
 	session_regenerate_id(true); // Regenerate the session_id to prevent a session fixation attack
