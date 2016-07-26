@@ -1,11 +1,11 @@
 <?php
-
-	require 'session.php';
-	require 'db.php';
 	
 	// Check if the form was submitted
-	if(isset($_POST['create'])) {
-		//$_SERVER['REQUEST_METHOD'] == 'POST'
+	if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['create'])) {
+		
+		require 'session.php';
+		require 'db.php';
+		
 		// Prepared statements
 		$stmt = $dbc->prepare('SELECT email FROM accounts WHERE email = ?');
 		$stmt->bind_param('s', $email);
@@ -71,9 +71,9 @@
 			echo 'You must populate all fields.';
 			
 		}
-	}
 		
-	$stmt->close();
-	$dbc->close();
+		$stmt->close();
+		$dbc->close();
+	}
 	
 ?>

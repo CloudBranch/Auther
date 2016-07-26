@@ -12,7 +12,7 @@
 	$title = 'Landing Page';
 	$logout = isset($_GET['logout']) ? $_GET['logout'] : '';
 	
-	if($logout == "true") {
+	if($logout == 'true') {
 		
 		echo '<h5 style="color:#309C4D;">Successfully logged out!</h5>';
 		

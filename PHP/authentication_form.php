@@ -30,7 +30,7 @@
 	
 	<br>
 	
-	<input type="submit" value="Log In" name="submit">
+	<input type="submit" value="Log In" name="login">
 	
 </form>
 	
