@@ -19,9 +19,19 @@
 <p>Log In</p>
 				
 <form method="post" action="authenticate.php">
-	<input type="email" placeholder="Email" name="email" />
-	<input type="password" placeholder="Password" name="password" />
-	<input type="submit" value="Log In" name="submit" />
+
+	<label for="email">Email :</label>
+	<input type="email" placeholder="e@mail.com" id="email" name="email" required>
+	
+	<br>
+	
+	<label for="password">Password :</label>
+	<input type="password" placeholder="********" id="password" name="password" required>
+	
+	<br>
+	
+	<input type="submit" value="Log In" name="submit">
+	
 </form>
 	
 <?php
