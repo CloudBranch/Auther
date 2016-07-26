@@ -50,7 +50,7 @@
 						$row = $data2->fetch_assoc();
 						$_SESSION['user_id'] = $row['id'];
 						$_SESSION['email'] = $row['email'];
-						header('location:http://localhost/blueprint/PHP/account.php');
+						header('location:http://localhost/blueprint/PHP/account.php?created=true');
 						
 					}
 				}
