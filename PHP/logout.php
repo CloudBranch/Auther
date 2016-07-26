@@ -19,6 +19,6 @@
 	}
 	
 	// Redirect to landing page
-	header('Location:http://localhost/blueprint/Blueprint/PHP/index.php?logout=true');
+	header('Location:http://localhost/blueprint/PHP/index.php?logout=true');
 	
 ?>

@@ -7,9 +7,13 @@
 	$password = $dbc->real_escape_string(trim($_POST['password']));
 
 	if(!empty($email) && !empty($password)) {
-
-		$sql = "SELECT id, email, password FROM accounts WHERE email = '$email'";
-		$data = $dbc->query($sql);
+		
+		$stmt = $dbc->prepare('SELECT id, email, password FROM accounts WHERE email = ?');
+		$stmt->bind_param('s', $email);
+		
+		$email = $email;
+		$stmt->execute();
+		$data = $stmt->get_result();
 		
 		$row = $data->fetch_assoc();
 		$saved_password = $row['password'];
@@ -18,7 +22,7 @@
 			
 			$_SESSION['user_id'] = $row['id'];
 			$_SESSION['email'] = $row['email'];
-			header('location:http://localhost/blueprint/Blueprint/PHP/account.php');
+			header('location:http://localhost/blueprint/PHP/account.php');
 			
 		}
 		else {

@@ -2,9 +2,10 @@
 
 	require 'session.php';
 	require 'db.php';
-
+	
+	// Check if the form was submitted
 	if(isset($_POST['create'])) {
-		
+		//$_SERVER['REQUEST_METHOD'] == 'POST'
 		// Prepared statements
 		$stmt = $dbc->prepare('SELECT email FROM accounts WHERE email = ?');
 		$stmt->bind_param('s', $email);
@@ -18,7 +19,7 @@
 		$options = [
 			'cost' => 10,
 		];
-		
+
 		$email = $dbc->real_escape_string(trim($_POST['email']));
 		$password1 = $dbc->real_escape_string(trim($_POST['password1']));
 		$password2 = $dbc->real_escape_string(trim($_POST['password2']));
@@ -26,13 +27,14 @@
 		$pw_length = strlen(utf8_decode($password1));
 
 		if(!empty($email) && !empty($password1) && !empty($password2)) {
-				
+			
+			// Check if passwords are identical and of proper length
 			if($password1 === $password2 && $pw_length >= 6 && $pw_length <= 60) {
 					
 				$email = $email;
 				$stmt->execute();
 				$data = $stmt->get_result();
-					
+				
 				if($data->num_rows == 0) {
 						
 					$email = $email;
@@ -48,7 +50,7 @@
 						$row = $data2->fetch_assoc();
 						$_SESSION['user_id'] = $row['id'];
 						$_SESSION['email'] = $row['email'];
-						header('location:http://localhost/blueprint/Blueprint/PHP/account.php');
+						header('location:http://localhost/blueprint/PHP/account.php');
 						
 					}
 				}

@@ -10,9 +10,9 @@
 	
 ?>
 		
-		<a href="index.php">Home</a>
-		<a href="authentication_form.php">Log In</a>
-		<a href="create_account_form.php">Create Account</a>
+	<a href="index.php">Home</a>
+	<a href="authentication_form.php">Log In</a>
+	<a href="create_account_form.php">Create Account</a>
 	
 <?php
 	
@@ -22,11 +22,10 @@
 		
 ?>
 		
-		<a href="account.php">Home</a>
-		<a href="logout.php">Log Out</a>
+	<a href="account.php">Home</a>
+	<a href="logout.php">Log Out</a>
 	
 <?php
 
 	}
-
 ?>
