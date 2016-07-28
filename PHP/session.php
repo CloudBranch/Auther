@@ -23,6 +23,5 @@
 	session_set_cookie_params($time, $cookieParams['path'], $cookieParams['domain'], $secure, $httponly); // Set the session cookie parameters
 	session_name($session_name); // Set the session name
 	session_start(); // Start the session
-	session_regenerate_id(true); // Regenerate the session_id to prevent a session fixation attack
 	
 ?>

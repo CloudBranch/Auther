@@ -12,6 +12,7 @@
 			echo '<h5 style="color:#309C4D;">Account Successfully created!</h5>';
 			
 		}
+		
 		include 'header.php';
 		include 'nav.php';
 		
@@ -23,7 +24,6 @@
 	else {
 		
 		header('location:http://localhost/blueprint/PHP/index.php');
-		exit();
 	
 	}
 
