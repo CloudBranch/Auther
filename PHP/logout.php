@@ -10,10 +10,11 @@
 		// Delete the session cookie by setting it to time in the past if it's set
 		if(isset($_COOKIE[session_name()])) {
 			
-			setcookie(session_name(), '',  $past_time, $cookieParams['path'], $cookieParams['domain'], $secure, $httponly);
+			setcookie(session_name(), '',  1, $cookieParams['path'], $cookieParams['domain'], $secure, $httponly);
 		}
 		
 		// Destroy the session
+		session_unset();
 		session_destroy();
 		
 	}

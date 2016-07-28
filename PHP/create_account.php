@@ -3,7 +3,7 @@
 	require 'session.php';
 	require 'db.php';
 	
-	session_regenerate_id(true); // Regenerate the session_id to prevent a session fixation attack
+	session_regenerate_id(true); // Regenerate the session_id to help prevent a session fixation attack
 	
 	if(!isset($_SESSION['user_id'])) {
 	
@@ -77,7 +77,6 @@
 			}
 			
 			$stmt->close();
-			$dbc->close();
 			
 		}
 		else {
@@ -91,5 +90,7 @@
 		header('location:http://localhost/blueprint/PHP/index.php');
 
 	}
+	
+	$dbc->close();
 	
 ?>
