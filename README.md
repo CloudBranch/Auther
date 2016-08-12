@@ -1,5 +1,5 @@
-# Blueprint
+# Auther
 
-Blueprint is a framework for authentication.
+Auther is a framework for authentication.
 
-### Blueprint-PHP
+### Auther-PHP
