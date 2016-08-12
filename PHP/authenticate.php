@@ -1,7 +1,6 @@
 <?php
 
 	require 'session.php';
-	require 'db.php';
 	
 	session_regenerate_id(true); // Regenerate the session_id to help prevent a session fixation attack
 	
@@ -9,6 +8,8 @@
 
 		// Check if the form was submitted
 		if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
+			
+			require 'db.php';
 
 			$email = $dbc->real_escape_string(trim($_POST['email']));
 			$password = $dbc->real_escape_string(trim($_POST['password']));
@@ -30,7 +31,7 @@
 					
 					$_SESSION['user_id'] = $row['id'];
 					$_SESSION['email'] = $row['email'];
-					header('location:http://localhost/blueprint/PHP/account.php');
+					header('location:http://localhost/Auther/PHP/account.php');
 					
 				}
 				else {
@@ -47,13 +48,13 @@
 		}
 		else {
 			
-			header('location:http://localhost/blueprint/PHP/account.php');
+			header('location:http://localhost/Auther/PHP/account.php');
 			
 		}
 	}
 	else {
 		
-		header('location:http://localhost/blueprint/PHP/index.php');
+		header('location:http://localhost/Auther/PHP/index.php');
 
 	}
 	

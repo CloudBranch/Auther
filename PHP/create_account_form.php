@@ -2,23 +2,23 @@
 	
 	require 'session.php';
 	
+	if(isset($_SESSION['user_id'])) {
+		
+		header('location:http://localhost/Auther/PHP/account.php');
+		exit();
+		
+	}
+	
 	$title = 'Create Account';
 	
 	include 'header.php';
 	include 'nav.php';
 	
-	if(isset($_SESSION['user_id'])) {
-		
-		header('location:http://localhost/blueprint/PHP/account.php');
-		exit();
-		
-	}
-	
 ?>
 
 <p>Create Account</p>
 
-<form method="post" action="create_account.php">
+<form method="post" action="http://localhost/Auther/PHP/create_account.php">
 
 	<label for="email">Email :</label>
 	<input type="email" placeholder="Email" name="email" required>

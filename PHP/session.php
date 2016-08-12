@@ -7,7 +7,7 @@
 	// http://php.net/manual/en/book.session.php
 	// http://php.net/manual/en/session.configuration.php
 	
-	$session_name = 'auth_session_id'; // The session name
+	$session_name = 'auther_session_id'; // The session name
 	$lifetime = strtotime('+4 hours'); // Time until session expiration 4 hours equals 14,400 seconds
 	$secure = false; // If set to true can only be sent over HTTPS
 	$httponly = true; // If set to false the session cookie can be accessed by javascript

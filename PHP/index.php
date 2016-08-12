@@ -4,7 +4,7 @@
 	
 	if(isset($_SESSION['user_id'])) {
 		
-		header('location:http://localhost/blueprint/PHP/account.php');
+		header('location:http://localhost/Auther/PHP/account.php');
 		exit();
 		
 	}

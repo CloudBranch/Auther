@@ -11,6 +11,7 @@
 		if(isset($_COOKIE[session_name()])) {
 			
 			setcookie(session_name(), '',  1, $cookieParams['path'], $cookieParams['domain'], $secure, $httponly);
+			
 		}
 		
 		// Destroy the session
@@ -20,6 +21,6 @@
 	}
 	
 	// Redirect to landing page
-	header('Location:http://localhost/blueprint/PHP/index.php?logout=true');
+	header('Location:http://localhost/Auther/PHP/index.php?logout=true');
 	
 ?>

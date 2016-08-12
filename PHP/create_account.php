@@ -1,7 +1,6 @@
 <?php
 
 	require 'session.php';
-	require 'db.php';
 	
 	session_regenerate_id(true); // Regenerate the session_id to help prevent a session fixation attack
 	
@@ -9,6 +8,8 @@
 	
 		// Check if the form was submitted
 		if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['create'])) {
+			
+			require 'db.php';
 			
 			// Prepared statements
 			$stmt = $dbc->prepare('SELECT email FROM accounts WHERE email = ?');
@@ -21,7 +22,9 @@
 			$stmt3->bind_param('s', $email);
 				
 			$options = [
-				'cost' => 10,
+			
+				'cost' => 10
+				
 			];
 
 			$email = $dbc->real_escape_string(trim($_POST['email']));
@@ -54,7 +57,7 @@
 							$row = $data2->fetch_assoc();
 							$_SESSION['user_id'] = $row['id'];
 							$_SESSION['email'] = $row['email'];
-							header('location:http://localhost/blueprint/PHP/account.php?created=true');
+							header('location:http://localhost/Auther/PHP/account.php?created=true');
 							
 						}
 					}
@@ -81,13 +84,13 @@
 		}
 		else {
 			
-			header('location:http://localhost/blueprint/PHP/account.php');
+			header('location:http://localhost/Auther/PHP/account.php');
 			
 		}
 	}
 	else {
 		
-		header('location:http://localhost/blueprint/PHP/index.php');
+		header('location:http://localhost/Auther/PHP/index.php');
 
 	}
 	

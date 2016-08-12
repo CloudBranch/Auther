@@ -23,7 +23,7 @@
 	}
 	else {
 		
-		header('location:http://localhost/blueprint/PHP/index.php');
+		header('location:http://localhost/Auther/PHP/index.php');
 	
 	}
 
