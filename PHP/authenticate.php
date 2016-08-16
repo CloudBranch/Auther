@@ -1,10 +1,14 @@
 <?php
 
+	/**
+	* @author Joshua Whalen <contact@joshuawhalen.com>
+	*/
+
 	require 'session.php';
 	
 	session_regenerate_id(true); // Regenerate the session_id to help prevent a session fixation attack
 	
-	if(!isset($_SESSION['user_id'])) {
+	if(!isset($_SESSION['id'])) {
 
 		// Check if the form was submitted
 		if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
@@ -29,7 +33,7 @@
 
 				if($data->num_rows == 1 && password_verify($password, $saved_password) == true) {
 					
-					$_SESSION['user_id'] = $row['id'];
+					$_SESSION['id'] = $row['id'];
 					$_SESSION['email'] = $row['email'];
 					header('location:http://localhost/Auther/PHP/account.php');
 					

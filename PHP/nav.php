@@ -1,12 +1,16 @@
 <?php
 
+	/**
+	* @author Joshua Whalen <contact@joshuawhalen.com>
+	*/
+
 	/******************************************************
 	-----------------------Navigation----------------------
 	******************************************************/
 	
 	// Navigation to show if user is NOT AUTHENTICATED
 	
-	if(!isset($_SESSION['user_id'])) {
+	if(!isset($_SESSION['id'])) {
 	
 ?>
 		

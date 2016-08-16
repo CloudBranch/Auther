@@ -1,10 +1,14 @@
 <?php
+
+	/**
+	* @author Joshua Whalen <contact@joshuawhalen.com>
+	*/
 	
 	// Database connection constants
 	define("DB_HOST", "localhost");
 	define("DB_USER", "root");
 	define("DB_PASSWORD", "");
-	define("DB_NAME", "auth");
+	define("DB_NAME", "auther");
 	define("DB_CHARSET", "UTF-8");
 	define("DB_COLLATE", "");
 	

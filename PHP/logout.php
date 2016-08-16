@@ -1,8 +1,12 @@
 <?php
 
+	/**
+	* @author Joshua Whalen <contact@joshuawhalen.com>
+	*/
+
 	require 'session.php';
 	
-	if(isset($_SESSION['user_id'])) {
+	if(isset($_SESSION['id'])) {
 		
 		// Clear the session variables
 		$_SESSION = array();

@@ -1,8 +1,12 @@
 <?php
 
+	/**
+	* @author Joshua Whalen <contact@joshuawhalen.com>
+	*/
+
 	require 'session.php';
 
-	if(isset($_SESSION['user_id'])) {
+	if(isset($_SESSION['id'])) {
 		
 		$title = 'Home';
 		$new_user = isset($_GET['created']) ? $_GET['created'] : '';
@@ -16,7 +20,7 @@
 		include 'header.php';
 		include 'nav.php';
 		
-		echo 'Welcome, ' . $_SESSION['email'];
+		echo $_SESSION['email'];
 		
 		include 'footer.php';
 		
