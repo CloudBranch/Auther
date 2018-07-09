@@ -12,7 +12,7 @@
 	define("DB_CHARSET", "UTF-8");
 	define("DB_COLLATE", "");
 	
-	// Database connection
+	// Create database connection
 	$dbc = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	
 	// Test database connection
