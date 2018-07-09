@@ -8,7 +8,7 @@ What is **Auther**?
 
 ## Getting Started
 
-Follow the link for the language you'll be implementing **Auther** in -
+Follow the link for the language you'll be implementing **Auther** in :
 
 - C#
    - Desktop
