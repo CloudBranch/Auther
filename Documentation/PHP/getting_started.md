@@ -21,6 +21,24 @@ $password = "password";
 $authenicate = $Auther->authenicate($user, $password);
 ```
 
+then to get the authenicated user simply call the `getAuthenicated()` method
+
+```php
+$authenicated = $Auther->getAuthenicated();
+```
+
+`getAuthenicated()` returns an array so for example to get the username and age of the currently authenticated user assuming those values were supplied to the `authenticate()` method
+
+```php
+$authenicated = $Auther->getAuthenicated();
+
+$username = $authenicated["username"];
+
+$age = $authenicated["age"];
+```
+
+supplying arrays to the authenticate method the authenticate method can take arrays of data
+
 ## Methods List
 
 | Methods | Description |
