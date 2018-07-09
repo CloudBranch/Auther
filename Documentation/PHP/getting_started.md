@@ -8,6 +8,18 @@ If you do not already have your database setup
 
 Check out this [beginners guide](beginners_guide.md)
 
+First we need to instantiate the **Auther** class
+
+```php
+$Auther = new Auther();
+```
+
+then to authenicate a user
+
+```php
+$authenicate = $Auther->authenicate();
+```
+
 
 
 
