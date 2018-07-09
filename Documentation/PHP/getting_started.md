@@ -24,8 +24,8 @@ echo 'test';
 
 | Methods | Description |
 | --- | --- |
-| `[addUser();]`(methods/add_user.md) | Adds a new user to the database |
-| git diff | Show file differences that haven't been staged |
+| [addUser()](methods/add_user.md) | Adds a new user to the database table specified |
+| [deleteUser()](methods/delete_user.md) | Deletes a user from the database table specified |
 
 
 https://travis-ci.org/
