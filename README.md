@@ -2,47 +2,36 @@
 
 # Auther
 
-Auther is a framework for authentication.
+What is **Auther**?
 
-- First list item
-   - First nested list item
-     - Second nested list item
-
-
-
-
+> Auther is a Universal framework for authentication.
 
 ## Getting Started
 
-If you do not already have your database setup
+Follow the link for the language you'll be implementing **Auther** in -
 
-Check out this [beginners guide](beginners_guide.md)
-
-
-In the words of Wisdom:
-
-> https://opensource.guide/
-
-
-```php
-echo 'test';
-```
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-
-
-https://travis-ci.org/
-
-Use `git status` to list all new or modified files that haven't yet been committed.
-
-Auther has a simple API for authorising users.
-
-It comes with simple to use methods
-
-
+- C#
+   - Desktop
+   - Web
+- GO
+   - Desktop
+   - Web
+- Java
+   - Desktop
+   - Mobile
+- Node.js
+   - Web
+- PERL
+   - Web
+- PHP
+   - Web
+- Python
+   - Desktop
+   - Web
+- Ruby
+   - Web
+- Rust
+   - Desktop
 
 ## Roadmap
 
