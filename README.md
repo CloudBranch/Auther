@@ -11,9 +11,9 @@ If you do not already have your database setup
 Check out this [beginners guide](beginners_guide.md)
 
 
-In the words of Abraham Lincoln:
+In the words of Wisdom:
 
-> Pardon my French
+> https://opensource.guide/
 
 
 ```php
