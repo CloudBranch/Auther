@@ -1,4 +1,4 @@
-## Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+### Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
 # Auther
 
@@ -16,8 +16,17 @@ In the words of Abraham Lincoln:
 > Pardon my French
 
 
+```php
+echo 'test';
+```
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 
+Use `git status` to list all new or modified files that haven't yet been committed.
 
 Auther has a simple API for authorising users.
 
