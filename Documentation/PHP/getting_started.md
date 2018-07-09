@@ -12,29 +12,29 @@ First we need to instantiate the **Auther** class
 $Auther = new Auther();
 ```
 
-then to authenicate a user feed the client-side provided credentials into the `authenicate()` method
+then to authenticate a user feed the client-side provided credentials into the `authenticate()` method
 
 ```php
 $user = "username";
 $password = "password";
 
-$authenicate = $Auther->authenicate($user, $password);
+$authenticate = $Auther->authenticate($user, $password);
 ```
 
-then to get the authenicated user simply call the `getAuthenicated()` method
+then to get the authenticated user simply call the `getAuthenticated()` method
 
 ```php
-$authenicated = $Auther->getAuthenicated();
+$authenticated = $Auther->getAuthenticated();
 ```
 
-`getAuthenicated()` returns an array so for example to get the username and age of the currently authenticated user assuming those values were supplied to the `authenticate()` method
+`getAuthenticated()` returns an array so for example to get the username and age of the currently authenticated user assuming those values were supplied to the `authenticate()` method
 
 ```php
-$authenicated = $Auther->getAuthenicated();
+$authenticated = $Auther->getAuthenticated();
 
-$username = $authenicated["username"];
+$username = $authenticated["username"];
 
-$age = $authenicated["age"];
+$age = $authenticated["age"];
 ```
 
 supplying arrays to the authenticate method the authenticate method can take arrays of data
