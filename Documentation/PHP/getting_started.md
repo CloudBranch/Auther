@@ -4,15 +4,11 @@
 
 ## Getting Started
 
-Follow the link for the language you'll be implementing **Auther** in -
-
-- First list item
-   - First nested list item
-     - Second nested list item
-
 If you do not already have your database setup
 
 Check out this [beginners guide](beginners_guide.md)
+
+
 
 
 In the words of Wisdom:
@@ -24,9 +20,11 @@ In the words of Wisdom:
 echo 'test';
 ```
 
-| Command | Description |
+## Methods List
+
+| Methods | Description |
 | --- | --- |
-| git status | List all new or modified files |
+| `[addUser();]`(methods/add_user.md) | Adds a new user to the database |
 | git diff | Show file differences that haven't been staged |
 
 
@@ -39,18 +37,3 @@ Auther has a simple API for authorising users.
 It comes with simple to use methods
 
 
-
-## Roadmap
-
-- [x] ~~Create Classes~~
-- [ ] Create Methods
-- [ ] Finish Documentation
-- [ ] Add Framework Python
-- [ ] Make Authorization for other platforms other than web ie Desktop, Mobile Apps
-- [ ] Make greatest universal Authorization platform ever
-
-## Contributing
-
-All contributions are welcome
-
-[Contribution guidelines for this project](CONTRIBUTING.md)
