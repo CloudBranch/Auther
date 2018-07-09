@@ -1,8 +1,6 @@
-### Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+# Auther - PHP
 
-# Auther
-
-**Auther** is a universal framework for authentication.
+**Auther** documentation for PHP.
 
 ## Getting Started
 
