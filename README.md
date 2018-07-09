@@ -6,7 +6,9 @@ Auther is a framework for authentication.
 
 # Getting Started
 
-If you already have your database setup follow along if not check the beginners guide
+If you do not already have your database setup
+
+Check out this [beginners guide](beginners_guide.md)
 
 
 
