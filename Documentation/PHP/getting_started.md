@@ -12,10 +12,13 @@ First we need to instantiate the **Auther** class
 $Auther = new Auther();
 ```
 
-then to authenicate a user
+then to authenicate a user feed the client-side provided credentials into the `authenicate()` method
 
 ```php
-$authenicate = $Auther->authenicate();
+$user = "username";
+$password = "password";
+
+$authenicate = $Auther->authenicate($user, $password);
 ```
 
 ## Methods List
@@ -24,6 +27,7 @@ $authenicate = $Auther->authenicate();
 | --- | --- |
 | [authenticate()](methods/authenticate.md) | Authorizes a user |
 | [unauthenticate()](methods/unauthenticate.md) | Unauthorizes a user |
+| [getAuthenticated()](methods/get_authenticated.md) | Get currently authenticated user |
 | [startSession()](methods/start_session.md) | Starts a new session |
 | [endSession()](methods/end_session.md) | Ends current users session |
 | [addUser()](methods/add_user.md) | Adds a new user to the database table specified |
