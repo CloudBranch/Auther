@@ -1,6 +1,8 @@
 # Auther
 
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) 
+![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
+
 
 What is **Auther**?
 
