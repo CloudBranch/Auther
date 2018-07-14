@@ -8,7 +8,7 @@ What is **Auther**?
 
 ## Getting Started
 
-Follow the link for the language you'll be implementing **Auther** in :
+Follow the link for the language(PHP support ONLY currently) you'll be implementing **Auther** in :
 
 - C#
    - Desktop
@@ -30,20 +30,16 @@ Follow the link for the language you'll be implementing **Auther** in :
    - Web
 - Ruby
    - Web
-- Rust
-   - Desktop
 
 ## Roadmap
 
-- [x] ~~Create Classes~~
-- [ ] Create Methods
-- [ ] Finish Documentation
-- [ ] Add Framework Python
-- [ ] Make Authorization for other platforms other than web ie Desktop, Mobile Apps
-- [ ] Make greatest universal Authorization platform ever
+- [x] ~~Make Greatest Universal Authorization Platform Ever~~
+- [ ] Improve Documentation
+- [ ] Move Documentation to Wiki
+- [ ] Add multiple Language Support
 
 ## Contributing
 
 All contributions are welcome
 
-[Contribution guidelines for this project](CONTRIBUTING.md)
+[Contribution guidelines](CONTRIBUTING.md)
