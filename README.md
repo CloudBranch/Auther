@@ -4,7 +4,7 @@
 
 What is **Auther**?
 
-> Auther is a Universal framework for authentication.
+> Auther is a universal framework for authentication.
 
 ## Getting Started
 

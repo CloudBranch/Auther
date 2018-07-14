@@ -2,6 +2,9 @@
 
 **Auther** documentation for PHP.
 
+##Installation
+
+
 ## Getting Started
 
 If you do not already have your database setup check out this [beginners guide](beginners_guide.md)
@@ -9,35 +12,15 @@ If you do not already have your database setup check out this [beginners guide](
 First we need to instantiate the **Auther** class
 
 ```php
-$Auther = new Auther();
-```
+// Instantiate the **Auther** class
+$auther = new Auther();
 
-then to authenticate a user feed the client-side provided credentials into the `authenticate()` method
+// Authenticate a user
+$authenticate = $auther->authenticate($user, $password);
 
-```php
-$user = "username";
-$password = "password";
-
-$authenticate = $Auther->authenticate($user, $password);
-```
-
-then to get the authenticated user simply call the `getAuthenticated()` method
-
-```php
+// Get authenticated user
 $authenticated = $Auther->getAuthenticated();
 ```
-
-`getAuthenticated()` returns an array so for example to get the username and age of the currently authenticated user assuming those values were supplied to the `authenticate()` method
-
-```php
-$authenticated = $Auther->getAuthenticated();
-
-$username = $authenticated["username"];
-
-$age = $authenticated["age"];
-```
-
-supplying arrays to the authenticate method the authenticate method can take arrays of data
 
 ## Methods List
 
