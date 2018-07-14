@@ -33,10 +33,10 @@ Follow the link for the language(PHP support ONLY currently) you'll be implement
 
 ## Roadmap
 
-- [x] ~~Make Greatest Universal Authorization Platform Ever~~
-- [ ] Improve Documentation
-- [ ] Move Documentation to Wiki
-- [ ] Add multiple Language Support
+- [x] ~~Make greatest universal authorization platform ever~~
+- [ ] Improve documentation
+- [ ] Move documentation to wiki
+- [ ] Add multiple language support
 
 ## Contributing
 
