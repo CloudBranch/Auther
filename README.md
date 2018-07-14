@@ -1,10 +1,10 @@
-### Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
-
 # Auther
 
 What is **Auther**?
 
 > Auther is a universal framework for authentication.
+
+###### Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
 ## Getting Started
 
