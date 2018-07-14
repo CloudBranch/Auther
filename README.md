@@ -1,6 +1,6 @@
 # Auther
 
-![WordPress plugin rating](https://img.shields.io/wordpress/plugin/r/akismet.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg) ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg) 
+![WordPress plugin rating](https://img.shields.io/wordpress/plugin/r/akismet.svg) ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![license](https://img.shields.io/github/license/mashape/apistatus.svg) ![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)  ![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)
 
 
