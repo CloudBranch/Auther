@@ -2,7 +2,7 @@
 
 **Auther** documentation for PHP.
 
-##Installation
+## Installation
 
 
 ## Getting Started
