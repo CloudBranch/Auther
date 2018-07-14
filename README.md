@@ -1,7 +1,15 @@
 # Auther
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) 
-![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg) 
+![WordPress plugin rating](https://img.shields.io/wordpress/plugin/r/akismet.svg) 
+![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg) 
+![license](https://img.shields.io/github/license/mashape/apistatus.svg) 
+![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)
+
+
+
+
 
 
 What is **Auther**?
