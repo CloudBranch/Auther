@@ -2,10 +2,7 @@
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) ![license](https://img.shields.io/github/license/mashape/apistatus.svg) ![WordPress plugin rating](https://img.shields.io/wordpress/plugin/r/akismet.svg) ![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)  ![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)
-
-
-
-
+![Packagist](https://img.shields.io/packagist/dt/doctrine/orm.svg)
 
 
 What is **Auther**?
@@ -19,12 +16,6 @@ Follow the link for the language(PHP support ONLY currently) you'll be implement
 - C#
    - Desktop
    - Web
-- GO
-   - Desktop
-   - Web
-- Java
-   - Desktop
-   - Mobile
 - Node.js
    - Web
 - PERL
@@ -42,6 +33,7 @@ Follow the link for the language(PHP support ONLY currently) you'll be implement
 - [x] ~~Make greatest universal authorization platform ever~~
 - [ ] Improve documentation
 - [ ] Move documentation to wiki
+- [ ] Additional database support
 - [ ] Add multiple language support
 
 ## Contributing

@@ -3,8 +3,16 @@
 	/**
 	* @author Joshua Whalen <contact@joshuawhalen.com>
 	*/
+	
+	spl_autoload_register(function ($class_name) {
+		include $class_name . '.php';
+	});
 
-	require 'session.php';
+	$auther  = new auther();
+	
+	$authenticate = $auther->authenticate($user, $password);
+
+/* 	require 'session.php';
 	
 	session_regenerate_id(true); // Regenerate the session_id to help prevent a session fixation attack
 	
@@ -62,6 +70,6 @@
 
 	}
 	
-	$dbc->close();
+	$dbc->close(); */
 	
 ?>

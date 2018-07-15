@@ -1,7 +1,7 @@
 <?php
 
 	/**
-	* @author Joshua Whalen <contact@joshuawhalen.com>
+	* @author Joshua Whalen
 	*/
 
 	require 'session.php';

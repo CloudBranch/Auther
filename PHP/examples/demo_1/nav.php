@@ -27,7 +27,7 @@
 ?>
 		
 	<a href="account.php">Home</a>
-	<a href="logout.php">Log Out</a>
+	<a href="../../logout.php">Log Out</a>
 	
 <?php
 

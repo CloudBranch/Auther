@@ -1,14 +1,14 @@
 <?php
 
 	/**
-	* @author Joshua Whalen <contact@joshuawhalen.com>
+	* @author Joshua Whalen
 	*/
 
-	require 'session.php';
+	require '../../session.php';
 	
 	if(isset($_SESSION['id'])) {
 		
-		header('location:http://localhost/Auther/PHP/account.php');
+		header('location:http://localhost/Auther/PHP/examples/demo_1/account.php');
 		exit();
 		
 	}

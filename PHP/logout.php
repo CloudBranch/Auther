@@ -1,30 +1,15 @@
 <?php
 
 	/**
-	* @author Joshua Whalen <contact@joshuawhalen.com>
+	* @author Joshua Whalen <joshuawhalen@email.com>
 	*/
+	
+	spl_autoload_register(function ($class_name) {
+		include $class_name . '.php';
+	});
 
-	require 'session.php';
+	$auther  = new auther();
 	
-	if(isset($_SESSION['id'])) {
-		
-		// Clear the session variables
-		$_SESSION = array();
-		
-		// Delete the session cookie by setting it to time in the past if it's set
-		if(isset($_COOKIE[session_name()])) {
-			
-			setcookie(session_name(), '',  1, $cookieParams['path'], $cookieParams['domain'], $secure, $httponly);
-			
-		}
-		
-		// Destroy the session
-		session_unset();
-		session_destroy();
-		
-	}
-	
-	// Redirect to landing page
-	header('Location:http://localhost/Auther/PHP/index.php?logout=true');
+	$unauthenticate = $auther->unauthenticate();
 	
 ?>
