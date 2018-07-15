@@ -25,7 +25,7 @@ If you do not already have your database setup start with the [beginners guide](
 First we need to instantiate the Auther class
 
 ```php
-// Instantiate the **Auther** class
+// Instantiate the Auther class
 $auther = new Auther();
 
 // Authenticate a user

@@ -41,3 +41,9 @@ Follow the link for the language(PHP support ONLY currently) you'll be implement
 All contributions are welcome
 
 [Contribution guidelines](CONTRIBUTING.md)
+
+## Contributors
+
+[Joshua Whalen](https://github.com/CyberSurferX)
+
+[Contribution guidelines](CONTRIBUTING.md)
