@@ -45,5 +45,3 @@ All contributions are welcome
 ## Contributors
 
 [Joshua Whalen](https://github.com/CyberSurferX)
-
-[Contribution guidelines](CONTRIBUTING.md)
