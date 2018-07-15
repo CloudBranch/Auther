@@ -34,6 +34,7 @@ Follow the link for the language(PHP support ONLY currently) you'll be implement
 - [ ] Improve documentation
 - [ ] Move documentation to wiki
 - [ ] Additional database support
+- [ ] Create Wordpress Plugin
 - [ ] Add multiple language support
 
 ## Contributing

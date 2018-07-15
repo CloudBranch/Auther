@@ -2,7 +2,7 @@
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
-In the words of Wisdom:
+In the words of wisdom:
 
 > Contributing is a valuable contribution.
 
