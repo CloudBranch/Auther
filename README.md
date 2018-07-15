@@ -30,7 +30,7 @@ Follow the link for the language(PHP support ONLY currently) you'll be implement
 
 ## Roadmap
 
-- [x] ~~Make greatest universal authorization platform ever~~
+- [x] ~~Make greatest universal authentication platform ever~~
 - [ ] Improve documentation
 - [ ] Move documentation to wiki
 - [ ] Additional database support
