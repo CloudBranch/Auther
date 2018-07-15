@@ -20,7 +20,7 @@ Note that the `vendor` folder and the `vendor/autoload.php` script are generated
 
 ## Getting Started
 
-If you do not already have your database setup check out this [beginners guide](beginners_guide.md)
+If you do not already have your database setup start with the [beginners guide](beginners_guide.md)
 
 First we need to instantiate the Auther class
 
