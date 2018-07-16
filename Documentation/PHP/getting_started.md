@@ -22,8 +22,6 @@ Note that the `vendor` folder and the `vendor/autoload.php` script are generated
 
 If you do not already have your database setup start with the [beginners guide](beginners_guide.md)
 
-First we need to instantiate the Auther class
-
 ```php
 // Instantiate the Auther class
 $auther = new Auther();
