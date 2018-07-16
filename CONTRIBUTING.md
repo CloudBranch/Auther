@@ -6,6 +6,8 @@ In the words of wisdom:
 
 > Contributing is a valuable contribution.
 
+All contributions are welcome including but not limited to code improvements, spelling errors, documentation contribution, etc
+
 ## Tools
 
 - [Github Desktop](https://desktop.github.com/)
