@@ -1,9 +1,9 @@
 <?php
-
+	
 	/**
 	* @author Joshua Whalen
 	*/
-
+	
 	require '../../session.php';
 	
 	if(isset($_SESSION['id'])) {
@@ -24,8 +24,8 @@
 	include 'header.php';
 	include 'nav.php';
 	
-?>
-<h1>Landing page here.</h1>
-<?php
+	echo '<h1>Landing page here.</h1>';
+	
 	include 'footer.php';
+	
 ?>

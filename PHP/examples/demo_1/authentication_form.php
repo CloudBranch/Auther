@@ -1,9 +1,9 @@
 <?php
-
+	
 	/**
-	* @author Joshua Whalen <contact@joshuawhalen.com>
+	* @author Joshua Whalen
 	*/
-
+	
 	require '../../session.php';
 	
 	if(isset($_SESSION['id'])) {
@@ -22,15 +22,15 @@
 
 <p>Log In</p>
 				
-<form method="post" action="http://localhost/Auther/PHP/authenticate.php">
+<form method="post" action="http://localhost/Auther/PHP/examples/demo_1/authenticate.php" autocomplete="stop">
 
 	<label for="email">Email :</label>
-	<input type="email" placeholder="e@mail.com" id="email" name="email" required>
+	<input type="email" placeholder="e@mail.com" id="email" name="email" autocomplete="email" required>
 	
 	<br>
 	
 	<label for="password">Password :</label>
-	<input type="password" placeholder="********" id="password" name="password" pattern="(?=.*\d).{6,}" required>
+	<input type="password" placeholder="********" id="password" name="password" pattern="(?=.*\d).{6,}" autocomplete="off" required>
 	
 	<br>
 	
