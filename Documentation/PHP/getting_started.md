@@ -39,8 +39,8 @@ $authenticated = $Auther->getAuthenticated();
 | --- | --- |
 | [authenticate()](methods/authenticate.md) | Authenticates a user |
 | [unauthenticate()](methods/unauthenticate.md) | Unauthenticates a user |
-| [getAuthenticated()](methods/get_authenticated.md) | Gets currently authenticated user |
-| [startSession()](methods/start_session.md) | Starts a new session |
-| [endSession()](methods/end_session.md) | Ends currently authenticated users session |
-| [addUser()](methods/add_user.md) | Adds a new user to the database table specified |
-| [deleteUser()](methods/delete_user.md) | Deletes a user from the database table specified |
+| [getAuthenticated()](methods/getAuthenticated.md) | Returns currently authenticated user information |
+| [startSession()](methods/startSession.md) | Starts a new session |
+| [endSession()](methods/endSession.md) | Ends current session |
+| [addUser()](methods/addUser.md) | Adds a new user to the database table specified |
+| [deleteUser()](methods/deleteUser.md) | Deletes a user from the database table specified |
