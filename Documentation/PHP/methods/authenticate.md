@@ -1,4 +1,4 @@
-# authenticate( *string* **$email**, *string* **$password** );
+### authenticate( *string* **$email**, *string* **$password** );
 
 ### Description
 
