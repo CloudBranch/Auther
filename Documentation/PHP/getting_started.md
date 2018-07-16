@@ -47,4 +47,4 @@ $authenticated = $Auther->getAuthenticated();
 
 ## Support
 
-**Auther** supports *PHP version* `5.6` and up.
+**Auther** supports PHP *version* `5.6` and up.
