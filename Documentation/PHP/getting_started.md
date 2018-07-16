@@ -44,3 +44,7 @@ $authenticated = $Auther->getAuthenticated();
 | [endSession()](methods/endSession.md) | Ends current session. |
 | [addUser()](methods/addUser.md) | Adds a new user to the database table specified. |
 | [deleteUser()](methods/deleteUser.md) | Deletes a user from the database table specified. |
+
+## Support
+
+**Auther** supports PHP version `5.6` and up.
