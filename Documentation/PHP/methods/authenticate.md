@@ -1,5 +1,5 @@
 ### authenticate( *string* **$email**, *string* **$password** );
 
-### Description
+#### Description
 
 > Authenticates a user.
