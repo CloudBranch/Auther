@@ -1,5 +1,5 @@
-# deleteUser( *string* **$id** );
+### deleteUser( *string* **$id** );
 
-### Description
+#### Description
 
 > Deletes a user from the database table specified.

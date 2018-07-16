@@ -1,5 +1,5 @@
-# unauthenticate( **void** );
+### unauthenticate( **void** );
 
-### Description
+#### Description
 
 > Unauthenticates a user.

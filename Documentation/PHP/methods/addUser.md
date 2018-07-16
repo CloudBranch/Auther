@@ -1,5 +1,5 @@
-# addUser( *array* **$values** );
+### addUser( *array* **$values** );
 
-### Description
+#### Description
 
 > Adds a new user to the database table specified.

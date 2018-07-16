@@ -1,5 +1,5 @@
-# endSession( **void** );
+### endSession( **void** );
 
-### Description
+#### Description
 
 > Ends current session.

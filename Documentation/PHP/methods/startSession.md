@@ -1,5 +1,5 @@
-# startSession( **void** );
+### startSession( **void** );
 
-### Description
+#### Description
 
 > Starts a new session.

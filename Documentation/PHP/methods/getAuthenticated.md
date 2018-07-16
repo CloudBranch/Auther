@@ -1,5 +1,5 @@
-# getAuthenticated( *returns* **array[]** );
+### getAuthenticated( *returns* **array[]** );
 
-### Description
+#### Description
 
 > Returns currently authenticated user information.
